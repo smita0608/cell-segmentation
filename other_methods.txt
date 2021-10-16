@@ -1,0 +1,22 @@
+
+MASK-RCNN AND U-NET ENSEMBLED FOR NUCLEI SEGMENTATION:
+The basic model uses a simple down sampling path, which can be replaced with a deeper network such as ResNet. This allows the model to learn more complex features as the network depth can be greatly increased with residual blocks. Another benefit is that pretrained ResNet networks can be used to initialize the network.
+
+reference link:
+https://ieeexplore.ieee.org/abstract/document/8759574
+DOI: 10.1109/ISBI.2019.8759574
+
+RECCURENT RESIDUAL CNN based U-Net:
+The model consists of two main units which are encoding units and decoding units. In both units, the recurrent residual convolutional operations are performed in each convolutional block in the encoding and decoding units. The conceptual diagram of the. The recurrent operation is performed with respect to different time steps.
+
+reference link:
+https://ieeexplore.ieee.org/abstract/document/8556686
+DOI: 10.1109/NAECON.2018.8556686
+
+
+NUCLEI SEGMENTATION WITH ENHANCED U-Net
+It proposed an enhanced version of classical U-Net, through re-designing the encoded branch with densely connected convolutional blocks.
+ 
+reference link:
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3332-1
+DOI: 10.1186/s12859-019-3332-1
